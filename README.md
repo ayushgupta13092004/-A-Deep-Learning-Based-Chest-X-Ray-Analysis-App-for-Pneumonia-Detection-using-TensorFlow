@@ -56,8 +56,8 @@ Dataset link : https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneu
 - pywin32
 
 # Machine Learning Model
-### ML- Prediction Model Code file : ML_Model_Code_Roshni.ipynb
-### Model File: chest_xray_Roshnis_Model.h5 
+### ML- Prediction Model Code file : ML_Model_Code_Ayush.ipynb
+### Model File: chest_xray_Ayush_Model.h5 
 ![Understanding the Hype Around Machine Learning](https://github.com/user-attachments/assets/9cdfc433-c334-4164-ac9e-c0a23376c60f)
 
 # Model Creation      
@@ -70,15 +70,15 @@ Dataset link : https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneu
 - Base Model: VGG16 with ImageNet weights (excluding top layers).
 - Custom Layers: Added Flatten and Dense layers for classification.
   
-3. Code for Model Creation: ML_Model_Code_Roshni.ipynb
+3. Code for Model Creation: ML_Model_Code_Ayush.ipynb
 4. Training and Saving
-Used the code snippet above to train the model and saved it as chest_xray_Roshnis_Model.h5.
+Used the code snippet above to train the model and saved it as chest_xray_Ayush_Model.h5.
   
   ![neuron-animation-blog](https://github.com/user-attachments/assets/cf9c7633-0f42-479a-8689-078dc603ad23)
 #
 # APP Usage
 
-1. Run the Application: chest_xray_App_Roshni.py 
+1. Run the Application: chest_xray_App_Ayush.py 
 2. Upload an Image:  Click the "Upload Image" button to select and upload a chest X-ray image. 
 3. Predict Results: Click the "Prediction" button to analyze the image and receive the result.
 4. View Results: A message box will display the result, and the result will be announced via speech synthesis.
